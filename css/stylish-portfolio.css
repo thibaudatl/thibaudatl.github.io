@@ -205,7 +205,12 @@ hr.small {
 .img-portfolio {
     margin: 0 auto;
 }
+.img-reduce{
+    height: 300px;
+    width: auto;
 
+    
+}
 .img-portfolio:hover {
     opacity: 0.8;
 }
