@@ -166,12 +166,14 @@ hr.small {
 
 .about {
     padding: 50px 0;
+    color: #000;
 }
 
 /* Services */
 
 .services {
     padding: 50px 0;
+
 }
 
 .service-item {
@@ -184,12 +186,15 @@ hr.small {
     display: table;
     width: 100%;
     height: 400px;
-    color: #fff;
-    background: url(../img/callout.jpg) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    color: #FFF;
+
+}
+.img-callout{
+  background: url(../img/callout.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 /* Portfolio */
@@ -209,7 +214,7 @@ hr.small {
     height: 300px;
     width: auto;
 
-    
+
 }
 .img-portfolio:hover {
     opacity: 0.8;
