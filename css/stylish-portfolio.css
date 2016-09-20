@@ -160,6 +160,13 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 /* About */
@@ -195,6 +202,13 @@ hr.small {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 /* Portfolio */
@@ -211,7 +225,7 @@ hr.small {
     margin: 0 auto;
 }
 .img-reduce{
-    height: 300px;
+    max-height: 150px;
     width: auto;
 
 
@@ -231,7 +245,6 @@ hr.small {
 }
 
 /* Map */
-
 .map {
     height: 500px;
 }
@@ -240,6 +253,9 @@ hr.small {
     .map {
         height: 75%;
     }
+}
+  .centerText{
+    text-align: center !important;
 }
 
 /* Footer */
